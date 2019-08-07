@@ -108,4 +108,4 @@ client.on('message', message => {
 
 console.log('ready')
 
-client.login('NjA2MjYzMTkxNzcyODU2MzQx.XUIh8A.nQVewUJiQVUGo8ef4SF0p76XP6s');
+client.on(process.env.TOKEN);
